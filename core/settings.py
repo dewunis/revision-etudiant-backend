@@ -128,7 +128,7 @@ CORS_URLS_REGEX = r"^/api/.*$"
 CORS_ALLOWED_ORIGINS = []
 
 if DEBUG :
-    CORS_ALLOWED_ORIGINS += [ "http://localhost:3000","'https://revisionetudiant.vercel.app"]
+    CORS_ALLOWED_ORIGINS += [ "http://localhost:3000","https://revisionetudiant.vercel.app"]
     ALLOWED_HOSTS += ["revisionetudiant.onrender.com"]
 
 
