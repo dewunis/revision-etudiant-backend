@@ -129,6 +129,7 @@ CORS_ALLOWED_ORIGINS = []
 
 if DEBUG :
     CORS_ALLOWED_ORIGINS += [ "http://localhost:3000","http://192.168.1.88:3000"]
+    ALLOWED_HOSTS += ["revisionetudiant.onrender.com"]
 
 
 REST_FRAMEWORK = {
